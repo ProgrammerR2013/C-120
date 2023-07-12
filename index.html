@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mobilenet vs. Google Lens</title>
+        <link rel = "stylesheet" href = "style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        
+        <center>
+            <nav class = "navbar-inverse my_nav_bar">
+                <div class = "navbar-header">
+                    <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#myNavbar">
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                        <span class = "icon-bar"></span>
+                    </button>
+                    <a class = "navbar-brand" href = "#">Case Study - Google Lens vs. Mobilenet</a>
+                </div>
+                
+                <div class = "collapse navbar-collapse" id = "myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="links"><a href="#intro">Introduction</a></li>
+                        <li class="links"><a href="#bottle">Item #1: Bottle</a></li>
+                        <li class="links"><a href="#glass">Item #2: Steel Glass</a></li>
+                        <li class="links"><a href="#hanger">Item #3: Hanger</a></li>
+                        <li class="links"><a href="#pillow">Item #4: Pillow</a></li>
+                        <li class="links"><a href="#ring">Item #5: Ring</a></li>
+                        <li class="links"><a href="#spoon">Item #6: Spoon</a></li>
+                        <li class="links"><a href="#conclusion">Conclusion</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </center>
+        <br>
+
+        <section id = "intro" class="parallax-container">
+            <div class = "parallax-inner">
+                <h1 class = "header">This project is a<br><span id = "name" class = "header">case study</span></h1>
+                <h2 class = "header">about Google Lens vs. Mobilenet</h2>
+                <br>
+                <span>
+                    <img class = "profile" src = "Google Lens.jpg">
+                    <img class = "profile" src = "versus.jpg">
+                    <img class = "profile" src = "mobilenet.png">
+                </span>
+                <br>
+                <h3>Scroll down!</h3>
+            </div>            
+        </section>
+        
+        <br><br>
+        <section id = bottle >
+            <span id = "sub_section_holder">
+                <div  class = "col-lg-6 col-md-6 col-sm-6 col-xs-6 image_holder">
+                    <img class = "test-photo" src = "Bottle.jpg">
+                </div>
+                <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-6 result_holder">
+                    <div>
+                        <p class = "before_result btn-danger">Result on Google Lens - Bottle<h4 id = "bottle_google_lens"></h4></p> <p class = "before_result btn-danger">Result on Mobilenet - Bottle<h4 id = "bottle_mobilenet"></h4></p>
+                    </div>
+                    <br>
+                    <h1 class = "basic_conclusion">The result is a draw.</h1>
+                </div>
+            </span>
+        </section>
+
+        
+        <section id = glass class = "padding">
+            <span id = "sub_section_holder">
+                <div  class = "col-lg-6 col-md-6 col-sm-6 col-xs-6 image_holder">
+                    <img class = "test-photo" src = "Glass.jpg">
+                </div>
+                <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-6 result_holder">
+                    <div>
+                        <p class = "before_result btn-danger">Result on Google Lens - Glass<h4 id = "bottle_google_lens"></h4></p> <p class = "before_result btn-danger">Result on Mobilenet - Spotlight<h4 id = "bottle_mobilenet"></h4></p>
+                    </div>
+                    <br>
+                    <h1 class = "basic_conclusion">Google Lens is correct.</h1>
+                </div>
+            </span>
+        </section>
+
+        <section id = hanger class = "padding">
+            <span id = "sub_section_holder">
+                <div  class = "col-lg-6 col-md-6 col-sm-6 col-xs-6 image_holder">
+                    <img class = "test-photo" src = "Hanger.jpg">
+                </div>
+                <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-6 result_holder">
+                    <div>
+                        <p class = "before_result btn-danger">Result on Google Lens - Hanger<h4 id = "bottle_google_lens"></h4></p> <p class = "before_result btn-danger">Result on Mobilenet - Claw/Hook<h4 id = "bottle_mobilenet"></h4></p>
+                    </div>
+                    <br>
+                    <h1 class = "basic_conclusion">Google Lens wins.</h1>
+                </div>
+            </span>
+        </section>
+
+        <section id = pillow class = "padding">
+            <span id = "sub_section_holder">
+                <div  class = "col-lg-6 col-md-6 col-sm-6 col-xs-6 image_holder">
+                    <img class = "test-photo" src = "Pillow.jpg">
+                </div>
+                <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-6 result_holder">
+                    <div>
+                        <p class = "before_result btn-danger">Result on Google Lens - Pillow<h4 id = "bottle_google_lens"></h4></p> <p class = "before_result btn-danger">Result on Mobilenet - Pillow<h4 id = "bottle_mobilenet"></h4></p>
+                    </div>
+                    <br>
+                    <h1 class = "basic_conclusion">The result is a draw.</h1>
+                </div>
+            </span>
+        </section>
+
+        <section id = ring class = "padding">
+            <span id = "sub_section_holder">
+                <div  class = "col-lg-6 col-md-6 col-sm-6 col-xs-6 image_holder">
+                    <img class = "test-photo" src = "Ring.jpg">
+                </div>
+                <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-6 result_holder">
+                    <div>
+                        <p class = "before_result btn-danger">Result on Google Lens - Ring<h4 id = "bottle_google_lens"></h4></p> <p class = "before_result btn-danger">Result on Mobilenet - Circle<h4 id = "bottle_mobilenet"></h4></p>
+                    </div>
+                    <br>
+                    <h1 class = "basic_conclusion">Google wins.</h1>
+                </div>
+            </span>
+        </section>
+
+        <section id = spoon class = "padding">
+            <span id = "sub_section_holder">
+                <div  class = "col-lg-6 col-md-6 col-sm-6 col-xs-6 image_holder">
+                    <img class = "test-photo" src = "Spoon.jpg">
+                </div>
+                <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-6 result_holder">
+                    <div>
+                        <p class = "before_result btn-danger">Result on Google Lens - Spoon<h4 id = "bottle_google_lens"></h4></p> <p class = "before_result btn-danger">Result on Mobilenet - Joystick<h4 id = "bottle_mobilenet"></h4></p>
+                    </div>
+                    <br>
+                    <h1 class = "basic_conclusion">Google Lens is correct.</h1>
+                </div>
+            </span>
+        </section>
+        <section id = "conclusion" class = "padding">
+            <h2 id = "heading_conclusion">Conclusion</h2>
+            <p class = "conclusion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section><br><br>
+
+        <footer>
+            <h1>Developed by Nova Technology Studio</h1>
+        </footer>
+        </center>      
